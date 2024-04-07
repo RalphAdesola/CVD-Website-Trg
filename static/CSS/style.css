@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+.logo-img {
+  height: 64px;
+  margin-left: 40px;
+}
+/* Home Page*/
+.main-content {
+  height: 700px;
+  background-image: linear-gradient(to right, #39462d, #29462d30),
+    url("../img/background-img.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  color: white;
+}
+
+.text-container {
+  /*padding: 100px 40px 100px 40px;*/
+  padding: 60px 40px;
+}
+.sub-header-text {
+  font-size: 48px;
+}
+.main-header-text {
+  padding: 10px 0;
+  font-size: 64px;
+}
+
+.header-description {
+  width: 60%;
+  line-height: 1.8;
+  padding-top: 10px;
+}
+
+.conversion-rate {
+  display: flex;
+  margin-left: 40px;
+  align-items: center;
+}
+
+.flag-img {
+  margin-right: 20px;
+}
+
+.btn-container {
+  margin-left: 40px;
+  padding-top: 40px;
+}
+
+.login-btn {
+  padding: 10px 20px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.signup-btn {
+  padding: 10px 20px;
+  background: linear-gradient(to right, #39462d, #39462dab);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.price-weather-section {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 40px;
+}
+.market-price-container {
+  border: 3px solid magenta;
+}
+.weather-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 300px;
+  background-image: linear-gradient(to right,#00000099, #00000099), url("../img/bg-2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 40px;
+  color: white;
+}
+
+.current-temperature{
+  font-size: 48px;
+  padding-top: 20px;
+}
+
+.forecast-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+.forecast-item{
+text-align: center;
+}
+
+
+/*Home Page*/
+
+/*Dashboard Page*/
+.dashboard-topbar {
+  height: 200px;
+  background-image: linear-gradient(to right, #39462d, #29462d30),
+    url("../img/background-img.png")Mh3<h3></h3>Weather
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: cover;
+  color: white;
+}
+
+.dashboard-topbar-text {
+  padding: 15px 40px;
+}
+
+.dashboard-header-text {
+  font-size: 64px;
+  line-height: 0.7;
+}
+
+/*Dashboard Page*/
